@@ -8,7 +8,7 @@ This module uses the database from
  which was:
  1. exported to TSV via "save as..." "UTF-16 Unicode Text" in excel.
  2. converted to utf-8 via a text program.
- 3. saved in `contracts/DGAL_data/bp_list.tsv`
+ 3. saved in `raw_data/bp_list.tsv`
 """
 import csv
 import datetime

@@ -1,6 +1,6 @@
 """
- This module converts 3 TSV files of districts, municipalities and counties into
- a dictionaries. Use `get_districts`, `get_municipalities`, `get_counties`.
+ This module converts 3 TSV files of districts, municipalities and counties
+ into dictionaries. Use `get_districts`, `get_municipalities`, `get_counties`.
 
  This module uses the database from
  http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal__caop_/caop_em_vigor/
@@ -8,12 +8,14 @@
  http://www.dgterritorio.pt/ficheiros/cadastro/caop/caop_download/caop_2014_0/areasfregmundistcaop2014_3
 
  which:
- 1. each sheet was exported to TSV via "save as..." "UTF-16 Unicode Text" in excel.
+ 1. each sheet was exported to TSV via "save as..." "UTF-16 Unicode Text" in
+    excel.
  2. each sheet was converted to utf-8 via a text program.
  3. each sheet was saved in
- * `Areas_distritos_CAOP2014_utf8.txt`
- * `Areas_municipios_CAOP2014_utf8.txt`
- * `Areas_freguesias_CAOP2014_utf8.txt`
+ * `raw_data/Areas_distritos_CAOP2014_utf8.txt`
+ * `raw_data/Areas_municipios_CAOP2014_utf8.txt`
+ * `raw_data/Areas_freguesias_CAOP2014_utf8.txt`
+
 """
 import csv
 
