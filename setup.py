@@ -1,5 +1,6 @@
-from setuptools import setup, find_packages
+# -*- coding: utf-8 -*-
 
+from setuptools import setup, find_packages
 
 setup(name='pt-regions',
       version='1.0.0',
