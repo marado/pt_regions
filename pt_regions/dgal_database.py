@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
  This module contains 1 function, `get_counties`, that returns all counties
  with respective NIFs.

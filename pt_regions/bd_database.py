@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 This module uses the database of Banco de Portugal to retrieve the NIFs of
 municipalities.
